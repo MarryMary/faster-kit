@@ -1,0 +1,147 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.atag_reset{
+    text-decoration: none;
+    border: none;
+}
+
+.button_reset{
+    border: none;
+    background: none;
+}
+
+.side-main-separate {
+    display: grid;
+    grid-template-columns: 0.4fr 3fr;
+}
+
+.flexbox{
+    display: flex;
+}
+
+.wrap{
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.revwrap{
+    flex-wrap: wrap-reverse;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-around{
+    justify-content: space-around;
+}
+
+.justify-evenly{
+    justify-content: space-evenly;
+}
+
+.inline-right{
+    text-align: right;
+}
+
+.inline-center{
+    text-align: center;
+}
+
+.inline-left{
+    text-align: left;
+}
+
+.box-right{
+    margin-right: auto;
+}
+
+.box-center{
+    margin: auto;
+}
+
+.box-left{
+    margin-left: auto;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float:right;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.full-height{
+    height: 100vh;
+}
+
+.full-width{
+    width: 100vh;
+}
+
+.fill-height{
+    height: 100%;
+}
+
+.fill-width{
+    width: 100%;
+}
+
+.img-trim-central{
+    object-fit: cover;
+}
+
+.scroll{
+    overflow: scroll;
+}
+
+.scroll-x{
+    overflow-x: scroll;
+}
+
+.scroll-y{
+    overflow-y: scroll;
+}
+
+.del-scrollbar{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.del-scrollbar::-webkit-scrollbar{
+    display: none;
+}
+
+.hidden{
+    overflow: hidden;
+}
+
+.hidden-x{
+    overflow-x: hidden;
+}
+
+.hidden-y{
+    overflow-y: hidden;
+}
+
+.cursor:hover{
+    cursor: pointer;
+}
+
+.opacity:hover{
+    opacity: 0.5;
+}
+
+.textarea-notresize{
+    resize: none;
+}
